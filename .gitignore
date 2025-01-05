@@ -1,0 +1,8 @@
+# data files
+data
+
+# api tokens and passwords
+.env
+
+# virtual env folder
+askreddit_topics

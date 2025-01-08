@@ -7,5 +7,6 @@ data
 # virtual env folder
 venv_askreddit
 
-
+# extra files % folders
+.DS_Store
 damapplot_latex_for_topics.ipynb

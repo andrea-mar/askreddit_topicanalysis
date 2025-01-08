@@ -5,7 +5,7 @@ data
 .env
 
 # virtual env folder
-askreddit_topics
+venv_askreddit
 
 
 damapplot_latex_for_topics.ipynb

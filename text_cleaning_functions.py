@@ -1,11 +1,20 @@
 import re
 import string
+import ssl
 import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet
 from nltk import pos_tag
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
+
+
+try:
+    _create_unverified_https_context = ssl._create_unverified_context
+except AttributeError:
+    pass
+else:
+    ssl._create_default_https_context = _create_unverified_https_context
 
 nltk.download('stopwords')
 SW_ENG = stopwords.words('english')

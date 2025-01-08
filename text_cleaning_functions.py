@@ -18,7 +18,7 @@ else:
 
 nltk.download('stopwords')
 SW_ENG = stopwords.words('english')
-
+ 
 # Make sure you have the necessary NLTK resources
 nltk.download('wordnet')
 nltk.download('omw-1.4')
